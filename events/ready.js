@@ -65,7 +65,7 @@ module.exports = {
             // Switch to the next status
             currentIndex = (currentIndex + 1) % statusMessages.length;
             client.user.setActivity(statusMessages[currentIndex]);
-        }, 60000); // 2 minutes
+        }, 300000); // 2 minutes
 
         console.log("Bot status rotation enabled");
     },
