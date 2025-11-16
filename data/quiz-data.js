@@ -68,7 +68,7 @@ module.exports = [
     {
         question: "The most mentally insane mod?",
         options: ["crystal", "monty", "blazing", "trivago"],
-        correct: ["crytal"],
+        correct: ["crystal"],
     },
     {
         question: "Most unemployed member",
